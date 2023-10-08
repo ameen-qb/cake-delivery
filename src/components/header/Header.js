@@ -4,6 +4,7 @@ import logo from "../../images/logo.png";
 import search from "../../images/search.png";
 import profile from "../../images/profile.png";
 import cart from "../../images/cart.png";
+import { Link } from "react-router-dom";
 
 export default function Header({ showProfile }) {
   return (
@@ -11,22 +12,22 @@ export default function Header({ showProfile }) {
       <nav>
         <div className="nav-items-left">
           <img src={logo} className="logo" alt="logo" />
-          <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fas fa-bars"></i>
+          <span className="navbar-toggle" id="js-navbar-toggle">
+            <i className="fas fa-bars"></i>
           </span>
           {/* <div className="nav-items-left-1"> */}
-          <a href="#" class="left">
+          <Link to="/" className="left">
             Home
-          </a>
-          <a href="#" class="left">
+          </Link>
+          <Link to="about" className="left">
             About
-          </a>
-          <a href="#" class="left">
+          </Link>
+          <Link to="#" className="left">
             Cakes
-          </a>
-          <a href="#" class="left">
+          </Link>
+          <Link to="#" className="left">
             Contact
-          </a>
+          </Link>
           {/* </div> */}
         </div>
         <div className="nav-items-right">
