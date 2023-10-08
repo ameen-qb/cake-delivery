@@ -23,14 +23,14 @@ nav {
   color: #3c3c3c;
   width: 48vw;
 }
-.nav-items-left1 {
+/* .nav-items-left1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #3c3c3c;
   width: 48vw;
-}
+} */
 /* .navbar-toggle {
   position: absolute;
   top: 10px;
@@ -76,9 +76,6 @@ nav {
   color: #ff5554;
   font-weight: bold;
   padding-right: 15px;
-}
-hr.hr1 {
-  border: 1px solid #e2e2e2;
 }
 
 @media (min-width: 479px) and (max-width: 870px) {

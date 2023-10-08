@@ -11,9 +11,6 @@
   align-items: center;
   flex-wrap: wrap;
 }
-hr.hr1 {
-  border: 1px solid #e2e2e2;
-}
 .nav-logo2 {
   width: 8.6875rem;
   height: 3.875rem;
@@ -45,6 +42,10 @@ hr.hr1 {
   line-height: 1.375rem;
   color: #858585;
   padding-right: 2.845rem;
+  text-decoration: none;
+}
+.footer-items-right-text:hover {
+  color: #ff5554;
 }
 .instagram {
   display: flex;

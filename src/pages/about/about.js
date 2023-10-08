@@ -10,6 +10,7 @@ import Footer from "../../components/footer/Footer";
 export default function AboutSection({ showProfile, setShowProfile }) {
   return (
     <>
+      <hr className="hr"></hr>
       <div className="content">
         <div className="part1">
           <h1 className="whwear">Who We Are</h1>
@@ -42,10 +43,10 @@ export default function AboutSection({ showProfile, setShowProfile }) {
           >
             {showProfile ? "Login" : "Profile"}
           </button>
-          <div className="part3">
-            <img src={img1} className="img1" alt="img1" />
-            <img src={img2} className="img2" alt="img2" />
-            <img src={img3} className="img3" alt="img3" />
+          <div className="part3-about">
+            <img src={img1} className="img1-about" alt="img1" />
+            <img src={img2} className="img2-about" alt="img2" />
+            <img src={img3} className="img3-about" alt="img3" />
           </div>
           <p className="OStext3">
             Creating exceptional cakes is our way of life, and our customers and
@@ -60,7 +61,7 @@ export default function AboutSection({ showProfile, setShowProfile }) {
           </p>
         </div>
       </div>
-      <Footer />
+      <hr className="hr1"></hr>
     </>
   );
 }

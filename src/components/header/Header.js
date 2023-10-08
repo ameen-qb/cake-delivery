@@ -22,7 +22,7 @@ export default function Header({ showProfile }) {
           <Link to="about" className="left">
             About
           </Link>
-          <Link to="#" className="left">
+          <Link to="cake" className="left">
             Cakes
           </Link>
           <Link to="#" className="left">
@@ -41,7 +41,6 @@ export default function Header({ showProfile }) {
           <img src={cart} className="cart" alt="cart" />
         </div>
       </nav>
-      <hr className="hr"></hr>
     </header>
   );
 }
