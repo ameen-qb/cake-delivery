@@ -8,9 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header showProfile={showProfile} />
-      <Content showProfile={showProfile} setShowProfile={setShowProfile} />
-      <Footer />
+      {/* <Header showProfile={showProfile} /> */}
+      {/* <Content showProfile={showProfile} setShowProfile={setShowProfile} /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
