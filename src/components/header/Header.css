@@ -81,7 +81,7 @@ hr.hr1 {
   border: 1px solid #e2e2e2;
 }
 
-@media (min-width: 480px) and (max-width: 870px) {
+@media (min-width: 479px) and (max-width: 870px) {
   .nav {
     border-bottom: 1px;
     border-color: #e2e2e2;
