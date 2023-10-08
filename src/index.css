@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Lexend;
+  src: url(Lexend-VariableFont_wght.ttf);
+}
+body {
+  margin: 0;
+  font-family: Lexend;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
