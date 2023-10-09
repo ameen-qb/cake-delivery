@@ -18,9 +18,6 @@ import bg1 from "../../assets/images/bg1.png";
 export default function Home() {
   return (
     <>
-      {/* <div>
-        <img src={bg1} className="bgimg" />
-      </div> */}
       <div className="wrapper">
         <section>
           <div className="part1-home">

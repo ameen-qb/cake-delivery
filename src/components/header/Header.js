@@ -32,6 +32,7 @@ export default function Header({ showProfile }) {
             <img src={profile} className="profile" alt="profile" />
           ) : (
             <div className="login">Login </div>
+            // login();
           )}
 
           <img src={cart} className="cart" alt="cart" />
@@ -39,4 +40,7 @@ export default function Header({ showProfile }) {
       </nav>
     </header>
   );
+}
+{
+  /* <script>function login() {alert("Login successful")}</script>; */
 }

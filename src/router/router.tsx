@@ -4,7 +4,6 @@ import Home from "../pages/Home/Home.js";
 import About from "../pages/About/About.js";
 import Cake from "../pages/Cake/Cake.js";
 import Contact from "../pages/Contact/Contact.js";
-// import { useState } from "react";
 
 export default function Router({ showProfile, setShowProfile }) {
   return (
