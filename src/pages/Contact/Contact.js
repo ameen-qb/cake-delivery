@@ -1,12 +1,12 @@
 import React from "react";
-import "./Cake.css";
+import "./Contact.css";
 import { Link } from "react-router-dom";
 
 export default function Cake() {
   return (
     <div>
-      <hr className="hr"></hr>
-      <h1 className="cake">CAKE</h1>
+      <hr className="hr1"></hr>
+      <h1 className="contact">CONTACT</h1>
       <hr className="hr1"></hr>
     </div>
   );

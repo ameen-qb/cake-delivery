@@ -1,19 +1,19 @@
 import "./Home.css";
-import cake1 from "../../images/cake1.png";
-import img1_2 from "../../images/img1_2.png";
-import img1_3 from "../../images/img1_3.png";
-import bc from "../../images/bc.png";
-import arrow1 from "../../images/arrow1.png";
-import ac from "../../images/ac.png";
-import arrow2 from "../../images/arrow2.png";
-import wc from "../../images/wc.png";
-import arrow3 from "../../images/arrow3.png";
-import sc from "../../images/sc.png";
-import arrow4 from "../../images/arrow4.png";
-import img2_1 from "../../images/img2_1.png";
-import img2_2 from "../../images/img2_2.png";
-import img4 from "../../images/img4.png";
-import bg1 from "../../images/bg1.png";
+import cake1 from "../../assets/images/cake1.png";
+import img1_2 from "../../assets/images/img1_2.png";
+import img1_3 from "../../assets/images/img1_3.png";
+import bc from "../../assets/images/bc.png";
+import arrow1 from "../../assets/images/arrow1.png";
+import ac from "../../assets/images/ac.png";
+import arrow2 from "../../assets/images/arrow2.png";
+import wc from "../../assets/images/wc.png";
+import arrow3 from "../../assets/images/arrow3.png";
+import sc from "../../assets/images/sc.png";
+import arrow4 from "../../assets/images/arrow4.png";
+import img2_1 from "../../assets/images/img2_1.png";
+import img2_2 from "../../assets/images/img2_2.png";
+import img4 from "../../assets/images/img4.png";
+import bg1 from "../../assets/images/bg1.png";
 
 export default function Home() {
   return (

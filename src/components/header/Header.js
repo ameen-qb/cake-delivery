@@ -1,9 +1,9 @@
 import React from "react";
 import "./Header.css";
-import logo from "../../images/logo.png";
-import search from "../../images/search.png";
-import profile from "../../images/profile.png";
-import cart from "../../images/cart.png";
+import logo from "../../assets/images/logo.png";
+import search from "../../assets/images/search.png";
+import profile from "../../assets/images/profile.png";
+import cart from "../../assets/images/cart.png";
 import { Link } from "react-router-dom";
 
 export default function Header({ showProfile }) {
@@ -12,10 +12,6 @@ export default function Header({ showProfile }) {
       <nav>
         <div className="nav-items-left">
           <img src={logo} className="logo" alt="logo" />
-          <span className="navbar-toggle" id="js-navbar-toggle">
-            <i className="fas fa-bars"></i>
-          </span>
-          {/* <div className="nav-items-left-1"> */}
           <Link to="/" className="left">
             Home
           </Link>
@@ -25,13 +21,13 @@ export default function Header({ showProfile }) {
           <Link to="cake" className="left">
             Cakes
           </Link>
-          <Link to="#" className="left">
+          <Link to="contact" className="left">
             Contact
           </Link>
-          {/* </div> */}
         </div>
         <div className="nav-items-right">
           <img src={search} className="search" alt="search" />
+
           {showProfile ? (
             <img src={profile} className="profile" alt="profile" />
           ) : (

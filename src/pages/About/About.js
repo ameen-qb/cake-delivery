@@ -1,16 +1,13 @@
 import React from "react";
-import "./about.css";
-import Banner from "../../images/Banner.png";
-import img1 from "../../images/img1.png";
-import img2 from "../../images/img2.png";
-import img3 from "../../images/img3.png";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+import "./About.css";
+import img1 from "../../assets/images/img1.png";
+import img2 from "../../assets/images/img2.png";
+import img3 from "../../assets/images/img3.png";
 
 export default function AboutSection({ showProfile, setShowProfile }) {
   return (
     <>
-      <hr className="hr"></hr>
+      <hr className="hr1"></hr>
       <div className="content">
         <div className="part1">
           <h1 className="whwear">Who We Are</h1>
@@ -38,7 +35,7 @@ export default function AboutSection({ showProfile, setShowProfile }) {
             and excellence.
           </p>
           <button
-            class="button"
+            className="button"
             onClick={() => setShowProfile((prev) => !prev)}
           >
             {showProfile ? "Login" : "Profile"}
@@ -65,4 +62,6 @@ export default function AboutSection({ showProfile, setShowProfile }) {
     </>
   );
 }
-<script>function login() {alert("Login successful")}</script>;
+{
+  /* <script>function login() {alert("Login successful")}</script>; */
+}

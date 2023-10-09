@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import logo2 from "../../images/logo2.png";
-import instagram from "../../images/instagram.png";
-import facebook from "../../images/facebook.png";
-import twitter from "../../images/twitter.png";
+import logo2 from "../../assets/images/logo2.png";
+import instagram from "../../assets/images/instagram.png";
+import facebook from "../../assets/images/facebook.png";
+import twitter from "../../assets/images/twitter.png";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -11,11 +11,11 @@ export default function Footer() {
     <footer>
       <nav className="footer">
         <img src={logo2} className="nav-logo2" />
+
         <div className="footer-items-left">
-          <div className="cpright">
-            © 2022 Cake Factory. All Rights Reserved
-          </div>
+          © 2022 Cake Factory. All Rights Reserved
         </div>
+
         <span className="footer-items-right">
           <Link to="/" className="footer-items-right-text">
             Home
@@ -29,7 +29,6 @@ export default function Footer() {
           <Link to="#" className="footer-items-right-text">
             Contact
           </Link>
-
           <img src={instagram} className="instagram" />
           <img src={facebook} className="facebook" />
           <img src={twitter} className="twitter" />

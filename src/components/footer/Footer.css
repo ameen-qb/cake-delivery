@@ -1,9 +1,7 @@
 .footer {
-  /* border-top: 1px;
-  border-color: #e2e2e2; */
   margin-left: 7.5rem;
   margin-right: 7.5rem;
-  margin-top: 1.0625rem;
+  margin-top: 0;
   margin-bottom: 1.25rem;
   display: flex;
   flex-direction: row;
@@ -21,9 +19,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  /* padding-right: 2.845rem; */
-}
-.cpright {
   size: 0.75rem;
   color: #b1b1b1;
 }

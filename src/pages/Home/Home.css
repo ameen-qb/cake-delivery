@@ -20,25 +20,6 @@
   --sc2-color: #ebd4eb;
   color: var(--font-color);
 }
-/* @font-face {
-  font-family: Lexend;
-  src: url(Lexend-VariableFont_wght.ttf);
-} */
-/* html,
-body {
-  background: url("bg1.png"), url("bg2.png");
-  background-position: top right, left;
-  background-repeat: no-repeat;
-  background-size: 680px 704px;
-  color: var(--font-color);
-  font-family: Lexend;
-} */
-/* .bgimg {
-  position: absolute;
-  background-position: top right;
-  background-repeat: no-repeat;
-  size: 680px 704px;
-} */
 .wrapper {
   margin-left: 7.5rem;
   margin-right: 7.5rem;
