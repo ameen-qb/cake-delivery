@@ -1,19 +1,11 @@
 import React from "react";
-// import { useHistory } from "react-router-dom";
 import "./About.css";
 import img1 from "../../assets/images/img1.png";
 import img2 from "../../assets/images/img2.png";
 import img3 from "../../assets/images/img3.png";
+import { useButtonClick } from "./useButtonClick()";
 
 export default function AboutSection({ showProfile, setShowProfile }) {
-  // const history = useHistory();
-
-  // const checkLogin = () => {
-  // if (!showProfile) {
-  // alert("You are not logged in");
-  // history.push("/cake");
-  // }
-  // };
   return (
     <>
       <hr className="hr1"></hr>
@@ -47,7 +39,9 @@ export default function AboutSection({ showProfile, setShowProfile }) {
             className="button"
             onClick={() => {
               setShowProfile((prev) => !prev);
-              // checkLogin();
+              {
+                handleClick;
+              }
             }}
           >
             {showProfile ? "Login" : "Profile"}
