@@ -3,7 +3,7 @@ import "./About.css";
 import img1 from "../../assets/images/img1.png";
 import img2 from "../../assets/images/img2.png";
 import img3 from "../../assets/images/img3.png";
-import { useButtonClick } from "./useButtonClick()";
+// import { useButtonClick } from "./useButtonClick()";
 
 export default function AboutSection({ showProfile, setShowProfile }) {
   return (

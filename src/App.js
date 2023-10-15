@@ -3,16 +3,16 @@ import Footer from "../src/components/footer/Footer.js";
 import Router from "./router/router.tsx";
 import { useState } from "react";
 
-export function useButtonClick() {
-  const [isButtonClicked, setIsButtonClicked] = useState(false);
-  const handleClick = () => {
-    setIsButtonClicked(true);
-  };
-  return {
-    isButtonClicked,
-    handleClick,
-  };
-}
+// export function useButtonClick() {
+//   const [isButtonClicked, setIsButtonClicked] = useState(false);
+//   const handleClick = () => {
+//     setIsButtonClicked(true);
+//   };
+//   return {
+//     isButtonClicked,
+//     handleClick,
+//   };
+// }
 function App() {
   const [showProfile, setShowProfile] = useState(true);
 

@@ -19,26 +19,24 @@ export default function Home() {
   return (
     <>
       <div className="wrapper">
-        <section>
-          <div className="part1-home">
-            <div className="content1">
-              <h2 className="special" width="495px" height="160px">
-                Special Mango cake
-              </h2>
-              <content className="content-home">
-                A double layer chocolate cake base, lightly covered with a mango
-                buttercream. Then topped with fresh mango slices.
-              </content>
-              <div>
-                <button className="button">Order Now!</button>
-              </div>
-              <div className="customers">Our Happy Customers</div>
+        <section className="part1-home">
+          <div className="content1">
+            <h2 className="special" width="495px" height="160px">
+              Special Mango cake
+            </h2>
+            <content className="content-home">
+              A double layer chocolate cake base, lightly covered with a mango
+              buttercream. Then topped with fresh mango slices.
+            </content>
+            <div>
+              <button className="button">Order Now!</button>
             </div>
-            <div className="parent2">
-              <img className="img1_1" src={cake1} />
-              <img className="img1_2" src={img1_2} />
-              <img className="img1_3" src={img1_3} />
-            </div>
+            <div className="customers">Our Happy Customers</div>
+          </div>
+          <div className="parent2">
+            <img className="img1_1" src={cake1} />
+            <img className="img1_2" src={img1_2} />
+            <img className="img1_3" src={img1_3} />
           </div>
         </section>
 
